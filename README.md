@@ -1,2 +1,3 @@
 # C-programming
-learning c-programming as a first year CSE student
+Hi! I'm a first year CSE student learning c-programming.
+This repository documents my coding journey.
