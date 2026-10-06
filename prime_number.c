@@ -2,8 +2,10 @@
 int main()
 {
 int n,i,count;
+printf("enter the number");
+scanf("%d",&n);
 for(i=1;i<=n;i++) {
-count++
+count++;
   }
 if (count==2)
   printf("prime number");
