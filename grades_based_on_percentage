@@ -8,7 +8,7 @@ if (p>=90)
 printf("distinction");
 else if(p<90 && p>=80)
 printf("first class");
-else if(p<80 && p>=70);
+else if(p<80 && p>=70)
 printf("second class");
 else if(p<70 && p>=60)
 printf("third class");
