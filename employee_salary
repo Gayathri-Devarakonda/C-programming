@@ -10,7 +10,7 @@ printf("enter da percentage");
 scanf("%d",&da_rate);
 hra=basic_sal*hra_rate/100;
 da=basic_sal*da_rate/100;
-gross_sal=basic+hra+da;
+gross_sal=basic_sal+hra+da;
 printf("gross salary is:%d",gross_sal);
 return 0;
 }
