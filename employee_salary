@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+int basic_sal,hra_rate,da_rate,hra,da,gross_sal;
+printf("enter employee basic salary");
+scanf("%d",&basic_sal);
+printf("enter hra percentage");
+scanf("%d",&hra_rate);
+printf("enter da percentage");
+scanf("%d",&da_rate);
+hra=basic_sal*hra_rate/100;
+da=basic_sal*da_rate/100;
+gross_sal=basic+hra+da;
+printf("gross salary is:%d",gross_sal);
+return 0;
+}
