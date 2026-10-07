@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+int s1_m1,s1_m2,s1_m3,s2_m1,s2_m2,s2_m3,total_1,total_2,highest_tot_mark;
+float p1,p2;
+printf("enter marks of three subjects of student 1");
+scanf("%d %d %d",&s1_m1,&s1_m2,&s1_m3);
+total_1=(s1_m1+s1_m2+s1_m3);
+p1=total_1/3;
+printf("percentage of student1:%2f",p1);
+if(p1>60)
+printf("student 1 passed");
+else
+printf("student 1 failed");
+printf("enter marks of three subjects of student 2");
+scanf("%d %d %d",&s2_m1,&s2_m2,&s2_m3);
+total_2=(s2_m1+s2_m2+s2_m3);
+p2=total_2/3;
+printf("percentage of student2:%2f",p2);
+if(p2>60)
+printf("student 2 passed");
+else
+printf("student 2 failed");
+if (total_1>total_2)
+highest_tot_mark=total_1;
+else
+highest_tot_mark=total_2;
+printf("highest total marks:%2d",highest_tot_mark);
+return 0;
+}
