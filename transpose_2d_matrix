@@ -4,7 +4,7 @@ int main()
 int a[10][10],t[10][10],i,j,r,c;
 printf("enter number of rows and columns");
 scanf("%d %d",&r,&c);
-printf("enter ekements of matrix:  ");
+printf("enter elements of matrix:  ");
 for(i=0;i<r;i++) {
 for(j=0;j<c;j++) {
 scanf("%d",&a[i][j]);
@@ -13,7 +13,7 @@ t[j][i]=a[i][j];
 }
 for(i=0;i<c;i++) {
 for(j=0;j<r;j++)
-printf(" transpose of matrix is  %d",t[i][j]);
+printf(" %d",t[i][j]);
 }
 return 0;
 }
