@@ -17,10 +17,12 @@ scanf("%d",&b[i][j]);
 }
 for(i=0;i<r;i++) {
 for(j=0;j<col;j++) {
-c[i][j]=a[i][j]+b[i][j];
-printf("sum of matrices:");
-printf("%d",c[i][j]);
+c[i][j]=a[i][j]+b[i][j]; }
 }
+printf("sum of matrices:");
+for (i=0;i<r;i++) {
+for (j=0;j<col:j++)
+printf("%4d",c[i][j]);
 printf("\n");
 }
 return 0;
